@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div  className="App">
-      <img className='header-img' src="./src/assets/header.png" alt="Rick and Morty Header" />
+      <img className='header-img' src="./src/assets/header.jpg" alt="Rick and Morty Header" />
       <img className='tittle' src="./src/assets/tittle.png" alt="Rick and Morty" />
 
       <form className='form' onSubmit={SubmitInput}>
