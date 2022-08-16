@@ -35,8 +35,8 @@ function App() {
 
   return (
     <div  className="App">
-      <img className='header-img' src="./public/header5.png" alt="" />
-      <img className='tittle' src="./public/tittle3.png" alt="" />
+      <img className='header-img' src="./src/assets/header.png" alt="Rick and Morty Header" />
+      <img className='tittle' src="./src/assets/tittle.png" alt="Rick and Morty" />
 
       <form className='form' onSubmit={SubmitInput}>
 
@@ -44,7 +44,7 @@ function App() {
         <div className='button-div'>
           <button><i className="fas fa-search"></i></button>
         </div>
-        
+
       </form>
 
 
