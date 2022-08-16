@@ -1,0 +1,189 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+  background-image: radial-gradient(circle at 50% 50%, #00ffff 0, #00e8ff 25%, #1da7f3 50%, #266b9d 75%, #1b3853 100%);
+}
+/*----------HEADER-----------*/
+.header-img{
+  position: relative;
+  width: 100%;
+  height: 372px;
+ 
+  
+}
+
+.tittle{
+  
+  position: absolute;
+  right: 25%;
+  top: 38%;
+  width: 50%;
+  height: 12%;
+}
+
+/*--------LOCATION--------*/
+.location{
+  display: flex;
+  flex-direction: column;
+}
+
+.location h2{
+  text-align: center;
+  font-size: 40px;
+}
+.location ul span{
+  font-weight: bolder;
+}
+.location ul{
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+/*----FORM------*/
+.form{
+  margin: 0% auto;
+  position: relative;
+  width: 50%;
+  padding: 5px 10px;
+
+
+  
+
+ 
+
+}
+.form input{
+ width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+
+}
+
+button{
+  position: absolute;
+  right:  0;
+  top: 0;
+  font-size: 15px;
+  line-height: 0px;
+  color: white;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  width: 60px;
+  cursor: pointer;
+  background-color: #1b3853;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  border: none;
+  
+}
+button::before{
+  position: absolute;
+  right:  0;
+  top: 0;
+  font-size: 15px;
+  line-height: 0px;
+  color: white;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  width: 60px;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+button:hover, button:focus {
+  color: #00ffff ;
+  transform: translateY(-6px);
+}
+
+
+/*--------CARD-RESIDENTS--------*/
+.container-resident{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  
+  
+}
+
+.card-resident {
+  margin-bottom: 50px;
+  transition: all 400ms ease;
+  background-image: radial-gradient(circle at 120.71% 50%, #00ffff 0, #00e7ff 25%, #1da7f3 50%, #266c9e 75%, #1b3954 100%);
+}
+
+.card-resident:hover{
+  box-shadow: 12px 12px 24px rgba(28, 110, 102, 0.64);
+  transform: translateY(-3%);
+}
+
+.card-resident img {
+  width: 100%;
+}
+
+.card-resident {
+  position: relative;
+}
+.card-resident header .circle-status{
+  width: 60px;
+  padding: 3px;
+  background-color: #1b3853;
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+
+}
+
+.card-resident header .circle-status .circle{
+  width: 14px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.Alive{
+  background-color: rgb(66, 250, 66) ;
+}
+.Dead{
+  background-color: red;
+}
+
+.unknown{
+  background-color: gray;
+}
+
+.info-resident{
+  padding: 15px;
+  
+}
+.info-resident h3{
+  font-size: 25px;
+
+}
+
+.info-resident ul{
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  font-size: 18px;
+
+}
+
+.info-resident ul li span{
+  font-weight: bold;
+  color: #DBD7D0;
+}
+
+
